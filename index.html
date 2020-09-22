@@ -1,7 +1,56 @@
 <!DOCTYPE html>
 <html>
+<head>
+
+<!-- Step 1) Load D3.js -->
+<script src="https://d3js.org/d3.v5.min.js"></script>
+
+<!-- Step 2) Load billboard.js with style -->
+<script src="billboard.js"></script>
+
+<!-- Load with base style -->
+<link rel="stylesheet" href="billboard.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Merriweather:wght@900&display=swap" rel="stylesheet">
+
+<style>
+h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 100px;
+}
+p {
+  font-family: 'Merriweather', serif;
+  font-family: 'Merriweather Sans', sans-serif;
+  line-height: 32px;
+}
+</style>
+
+
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <h1>The Pizza Cycle</h1>
+  <p>There they lay, strewn about, dead to the world and to themselves. Uncared for, discarded, yet at one time not long before this picture was taken, delicious. This was no accident. Or was it? What follows is a dive into the data to find out just would make someone reject pizza, dear, eternally comforting pizza, in such a heinous manner.</p>
+
+  <script>
+  var chart = bb.generate({
+    data: {
+      columns: [
+  	["data1", 300, 350, 300, 0, 0, 0],
+  	["data2", 130, 100, 140, 200, 150, 50]
+      ],
+      types: {
+        data1: "area",
+        data2: "area-spline"
+      }
+    },
+    bindto: "#areaChart"
+  });
+
+  </script>
+
 </body>
+
 </html>
