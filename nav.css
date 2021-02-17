@@ -6,7 +6,7 @@ body, html {
 .section {
 	min-height: 800px;
 	position: relative;
-	text-align: center;
+	/* text-align: center; */
 	font-family: sans-serif, arial;
 	margin: 0;
 }
