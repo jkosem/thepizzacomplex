@@ -15,13 +15,14 @@
 
 <div class="container">
     <div class="section" id="section1">
-        &nbsp;
-        <h1>The Pizza Complex</h1>
+        <p>&nbsp;</p>
+        <img src="images/title.png">
+        <p>&nbsp;</p>
         <p>There they lay, strewn about, dead to the world and to themselves. Uncared for, discarded, yet at one time not long before this picture was taken, delicious. This was no accident. Or was it?</p>
         <p>What follows is a dive into the data to find out just would make someone reject pizza, dear, eternally comforting pizza, in such a heinous manner.</p>
         <img src="images/pizza-strewn-square.jpeg">
         <p style="text-align:center; font-style:italic; color: #49392C">Evidence</p>
-        &nbsp;
+        <p>&nbsp;</p>
     </div>
     <div class="section" id="section2">
         &nbsp;
@@ -103,11 +104,83 @@
     <div class="section" id="section4">
         <h2>Plausible Scenario #2</h2>
         <p>Steve hated onions. It was that simple. It really is. However, the first scenario doesn't really address first principles potentialaties. Steve opened the box with haste. it was lunch time. Well, an early lunch time at any rate. He was hungry. Things were simple. Simple as the sun hanging there in the sky smiling down on what was otherwise to be a halfway decent day. It wasn't to be.</p>
+        <canvas id="bubble-chart" width="800" height="800"></canvas>
+        <script>
+        new Chart(document.getElementById("bubble-chart"), {
+            type: 'bubble',
+            data: {
+                labels: "Africa",
+                datasets: [
+                    {
+                        label: ["That time at Billy Klopperman's 9th birthday party"],
+                        backgroundColor: "rgba(255,221,50,0.2)",
+                        borderColor: "rgba(255,221,50,1)",
+                        data: [{
+                            x: 24269017,
+                            y: 5.245,
+                            r: 40
+                        }]
+                    }, {
+                        label: ["Steve doesn't cry for peeling anything"],
+                        backgroundColor: "rgba(60,186,159,0.2)",
+                        borderColor: "rgba(60,186,159,1)",
+                        data: [{
+                            x: 1008702,
+                            y: 5.526,
+                            r: 30
+                        }]
+                    }, {
+                        label: ["French Onion soup as a concept"],
+                        backgroundColor: "rgba(0,0,0,0.2)",
+                        borderColor: "#000",
+                        data: [{
+                            x: 3979083,
+                            y: 6.494,
+                            r: 15
+                        }]
+                    }, {
+                        label: ["Because fuck you that's why"],
+                        backgroundColor: "rgba(193,46,12,0.2)",
+                        borderColor: "rgba(193,46,12,1)",
+                        data: [{
+                            x: 6031877,
+                            y: 5.921,
+                            r: 30
+                        }]
+                    }
+                ]
+            },
+            options: {
+                title: {
+                    display: true,
+                    text: 'Onions as a topping'
+                }, scales: {
+                    yAxes: [{
+                        scaleLabel: {
+                            display: true,
+                            labelString: "Generalised Hatred"
+                        }
+                    }],
+                    xAxes: [{
+                        scaleLabel: {
+                            display: true,
+                            labelString: "Time"
+                        }
+                    }]
+                }
+            }
+        });
+        </script>
+        <p> </p>
         <p>One never expects trauma to ensue when opening a pizza box. A person, any normal, regular, sort of person like Steve, would open a pizza box and be enveloped by delight. This diddn't happen. There were onions.</p>
     </div>
     <div class="section" id="section4">
         <h2>Plausible Scenario #3</h2>
-        <p>"No pepperoni she says. No fucking pepperoni. Who the fuck doesn't like pepperoni? Oh, don't quite feel like that today she says. My ass you don't feel like it. You don't feel like pepperoni because it reminds you of fucking Steve Johson doesn't it? Oh it does, doesn't it? You don't like pepperoni today? Who doesn't like pepperoni on a certain day? Oh, just not in the mood love she says. No in the mood for pizza I like but will go have lunch at Itsu twice a week with some fucker who sits next to you at work will you?"</p>
+        <p>"No pepperoni she says. No fucking pepperoni. Who the fuck doesn't like pepperoni?
+        <p>"Oh, don't quite feel like that today she says. My ass you don't feel like it.""</p>
+        <p>"You don't feel like pepperoni because it reminds you of fucking Steve Johson doesn't it? Oh it does, doesn't it?""</p>
+        <p>You don't like pepperoni today? Who doesn't like pepperoni on a certain day?</p>
+        <p>Oh, just not in the mood love she says. No in the mood for pizza I like but will go have lunch at Itsu twice a week with some fucker who sits next to you at work will you?"</p>
     </div>
     <div class="section" id="footer">
         &nbsp;
