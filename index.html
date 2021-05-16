@@ -14,16 +14,22 @@
 <body>
 
 <div class="container">
+    <div class="sectionimage" id="section1">
+        <p>&nbsp;</p>
+        <img src="images/section1-header.png">
+    </div>
     <div class="section" id="section1">
         <p>&nbsp;</p>
-        <img src="images/title.png">
-        <p>&nbsp;</p>
-        <p>There they lay, strewn about, dead to the world and to themselves. Uncared for, discarded, yet at one time not long before this picture was taken, delicious. This was no accident. Or was it?</p>
-        <p>What follows is a dive into the data to find out just would make someone reject pizza, dear, eternally comforting pizza, in such a heinous manner.</p>
-        <img src="images/pizza-strewn-square.jpeg">
-        <p style="text-align:center; font-style:italic; color: #49392C">Evidence</p>
+        <h3>There they lay, strewn about, dead to the world and to themselves. Uncared for, discarded, yet at one time not long before this picture was taken, delicious. This was no accident. Or was it?</p>
+        <p>What follows is a dive into the data to find out just would make someone reject pizza, dear, eternally comforting pizza, in such a heinous manner.</h3>
         <p>&nbsp;</p>
     </div>
+    <div class="sectionimage" id="section1">
+        <p>&nbsp;</p>
+        <img src="images/pizzas.png">
+        <p>&nbsp;</p>
+    </div>
+
     <div class="section" id="section2">
         &nbsp;
         <!-- <div class="subsection"> -->
@@ -178,9 +184,59 @@
         <h2>Plausible Scenario #3</h2>
         <p>"No pepperoni she says. No fucking pepperoni. Who the fuck doesn't like pepperoni?
         <p>"Oh, don't quite feel like that today she says. My ass you don't feel like it.""</p>
-        <p>"You don't feel like pepperoni because it reminds you of fucking Steve Johson doesn't it? Oh it does, doesn't it?""</p>
-        <p>You don't like pepperoni today? Who doesn't like pepperoni on a certain day?</p>
-        <p>Oh, just not in the mood love she says. No in the mood for pizza I like but will go have lunch at Itsu twice a week with some fucker who sits next to you at work will you?"</p>
+        <p>"You don't feel like pepperoni because it reminds you of fucking Steve Johson doesn't it? Oh it does, doesn't it?</p>
+        <p>"You don't like pepperoni today? Who doesn't like pepperoni on a certain day?""</p>
+        <p>"Oh, just not in the mood love she says. No in the mood for pizza I like but will go have lunch at Itsu twice a week with some fucker who sits next to you at work will you?"</p>
+        <canvas id="radar-chart" width="800" height="800"></canvas>
+        <script>
+
+        new Chart(document.getElementById("radar-chart"), {
+
+      // var ctx = document.getElementById('myChart').getContext('2d');
+      // var myChart = new Chart(ctx, {
+          type: 'radar',
+          data: {
+            labels: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            datasets: [{
+                data: [86,114,106,106,107,111,133],
+                label: "Total lying bitch",
+                borderColor: "#3e95cd",
+                backgroundColor: "rgb(62,149,205,0.1)",
+                borderWidth:2,
+
+              }, {
+                data: [70,90,44,60,83,90,100],
+                label: "Generally dodgy",
+                borderColor: "#3cba9f",
+                backgroundColor: "rgb(60,186,159,0.1)",
+                borderWidth:2,
+
+              }, {
+                data: [84,43,60,54,50,21,17],
+                label: "We're so in love still, I just know it",
+                borderColor: "#ffa500",
+                backgroundColor:"rgb(255,165,0,0.1)",
+                borderWidth:2,
+
+              }, {
+                data: [22,33,24,8,12,22,45],
+                label: "Postmodern notions of truth and metaphor",
+                borderColor: "#c45850",
+                backgroundColor:"rgb(196,88,80,0.1)",
+                borderWidth:2,
+
+              }
+            ]
+          },
+          options: {
+             scales: {
+               xAxes: [{
+                  display: false,
+               }],
+             }
+           },
+        });
+    </script>
     </div>
     <div class="section" id="footer">
         &nbsp;
