@@ -18,6 +18,11 @@ html, body {
     padding-top: 0.30263158em;
     padding-bottom: 0.60526316em;
 }
+
+.sectionimage img {
+    max-width: 100%;
+}
+
 .subsection {
     background-color: #000;
 }
