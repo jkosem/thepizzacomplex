@@ -27,7 +27,7 @@ html, body {
     background-color: #000;
 }
 
-#section1 {
+#sectiontan {
     background-color: #FBEFE0;
     /* clip-path: polygon(
         0 0,
@@ -36,7 +36,7 @@ html, body {
         0 calc(100% - 2vw)
     ); */
 }
-#section2 {
+#sectionblue {
     background-color: #B2B0CF;
     /* clip-path: polygon(
         0 0,
@@ -45,11 +45,8 @@ html, body {
         0 calc(100% - 2vw)
     ); */
 }
-#section3 {
+#sectionlightblue {
     background-color: #E1F2FE;
-}
-#section4 {
-    background-color: #;
 }
 #footer {
     background-color: #000;
