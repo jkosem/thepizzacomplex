@@ -48,6 +48,14 @@ html, body {
 #sectionlightblue {
     background-color: #E1F2FE;
 }
+.divider {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 4.22222222em;
+    padding-bottom: 4.22222222em;
+}
 #footer {
     background-color: #000;
 }
