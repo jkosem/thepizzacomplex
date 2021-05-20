@@ -52,7 +52,7 @@ html, body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    /* width: 50%; */
     padding-top: 4.22222222em;
     padding-bottom: 4.22222222em;
 }
@@ -64,13 +64,11 @@ html, body {
   /* (A) PERCENTAGE WIDTH & BORDER RADIUS */
   width: 100%;
   border-radius: 50%;
-
   background: #E1F2FE;
 
   /* (C) NECESSARY TO POSITION TEXT BLOCK */
   /* line-height: 0; */
   position: relative;
-
 }
 
 /* (D) MATCH HEIGHT */
