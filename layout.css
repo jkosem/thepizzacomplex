@@ -65,12 +65,12 @@ html, body {
   width: 100%;
   border-radius: 50%;
 
-  /* (B) BACKGROUND COLOR */
   background: #E1F2FE;
 
   /* (C) NECESSARY TO POSITION TEXT BLOCK */
-  line-height: 0;
+  /* line-height: 0; */
   position: relative;
+
 }
 
 /* (D) MATCH HEIGHT */
